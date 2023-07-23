@@ -1,16 +1,33 @@
+.btns{
+  margin: 104px auto 20px auto;
+}
+
+.btns button{
+  border: none;
+  padding: 10px;
+}
+
+.btns button:hover{
+  background-color: #000000;
+  color: white;
+}
+
+.active{
+  background-color: #000000;
+  color: white;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 104px;
   padding: 0px 0px;
 }
 
 @media (max-width: 1200px) {
   .container {
     padding: 15px 80px;
-    margin-top: 110px;
   }
 }
 
@@ -27,8 +44,8 @@
   }
 }
 
-/* @media (max-width: 555px) {
-  .container {
-    padding: 15px 10px;
+@media (max-width: 295px) {
+  .btns button{
+    padding: 5px;
   }
-} */
+}
